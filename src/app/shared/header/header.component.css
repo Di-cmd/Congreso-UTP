@@ -1,0 +1,49 @@
+.header {
+    background-color:#FFF69F;
+    height: 85px;
+   position: fixed;
+
+}
+
+
+
+.container{
+    margin:0%;
+}
+
+.container img{
+
+    width: 60px;
+    left: 60px;
+
+}
+
+.container button{
+    
+    text-decoration:solid;
+    color:black;
+    font-size: 15px;
+
+}
+
+.contenedor img {
+    height: 200px;
+    width: 677px;
+    border: 80px;
+    border: black;
+
+
+}
+.contenedor-banner img {
+    margin-top: 90px;
+    height: 250px;
+    width: 677px;
+    margin:none;
+
+
+}
+
+.contenedor{
+    width: 100%;
+}
+
