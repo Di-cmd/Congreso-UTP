@@ -4,7 +4,12 @@
 
 }
 .container img{
-        height: 200px;
+    width: 64%;
+    height: 85%;
        
 }
 
+.contenedorimg{
+    margin: 50px;
+   text-align:center;
+}

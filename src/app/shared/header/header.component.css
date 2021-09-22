@@ -43,6 +43,11 @@
 
 }
 
+.banner img{
+    width: 100%;
+    text-align: center;
+
+}
 .botones{
     margin-left: 2%;
 
