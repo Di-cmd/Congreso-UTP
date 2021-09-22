@@ -24,3 +24,8 @@
 .card mat-card-content{
     text-align: justify;
 }
+
+.tematica{
+    width: 20%;
+    height:20% ;
+}

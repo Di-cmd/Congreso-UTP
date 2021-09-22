@@ -48,4 +48,24 @@ export class HomeComponent implements OnInit {
         "Este poeta hijo de inmigrantes italianos que buscaba hablar de amor y compromiso político de la manera más directa y apasionada posible, es famoso por el estilo directo de sus versos de amor,ira y resistencia. Benedetti alcanzó su punto máximo como »",
     },
   ];
+
+
+  Tematicas: any[] = [
+    {
+      name: "Materiales",
+      image: "termografia.jpg"
+    },
+    {
+      name: "Termografia medica",
+      image: "termografia.jpg"
+    },
+    {
+      name: "Termografia de materiales",
+      image: "termografia.jpg"
+    },
+    {
+      name: "Milton Humberto",
+      image: "termografia.jpg"
+    },
+  ];
 }

@@ -111,4 +111,20 @@
         </mat-card>
         </div>
   </div>
+
+
+
+    <div class="contenedor">
+                <div>
+            <h1>Tematicas</h1>
+            </div>
+        <!-- ngFor del comite organizador-->
+            <div *ngFor="let tema of Tematicas" class="tematica" >
+    
+            <img mat-card-image src="{{ 'assets/' + tema.image }}" />
+    
+            </div>
+    </div>
+
+
 </div>
