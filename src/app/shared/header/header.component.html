@@ -1,97 +1,114 @@
-<div class="contenido">
-    <mat-toolbar class="header">
-        <mat-toolbar-row>
-
-            <div class="row">
-
-                <div class="col-2">
-                    <!--<img src="assets\Logo_U.T.P.png">-->
-                </div>
-                <div class="contenedor">
-                    <div class="col-6">
-                        <div class="row">
-
-                            <div class="col-3">
-                                <button mat-button [routerLink]="['/']">Inicio</button>
-
-                            </div>
-
-                            <div class="col-3">
-
-                                <button mat-button [matMenuTriggerFor]="autores">Autores</button>
-                                <mat-menu #autores="matMenu">
-                                    <button mat-menu-item [routerLink]="['/autores']"
-                                        style="background-color: #FEFEA2;">Para expositores </button>
-                                    <button mat-menu-item [routerLink]="['/autores']">Para evaluadores</button>
-                                    <button mat-menu-item [routerLink]="['/autores']"
-                                        style="background-color: #FEFEA2;">Pagos</button>
-                                </mat-menu>
-
-                            </div>
-
-                            <div class="col-3">
-
-                                <button mat-button [matMenuTriggerFor]="eventos">Evento</button>
-                                <mat-menu #eventos="matMenu" class="desple">
-                                    <button mat-menu-item [routerLink]="['/evento']"
-                                        style="background-color: #FEFEA2;">Cronograma </button>
-                                    <button mat-menu-item [routerLink]="['/evento']">Expositores</button>
-                                    <button mat-menu-item [routerLink]="['/evento']"
-                                        style="background-color: #FEFEA2;">Descubriendo la perla</button>
-                                </mat-menu>
-
-
-                            </div>
-                            <div class="col-3">
-
-                                <button mat-button [matMenuTriggerFor]="pagos">Comercial</button>
-                                <mat-menu #pagos="matMenu">
-                                    <button mat-menu-item [routerLink]="['/pagos']"
-                                        style="background-color: #FEFEA2;">Inscribe tu negocio</button>
-                                    <button mat-menu-item [routerLink]="['/pagos']">Salon virtual</button>
-                                </mat-menu>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="row">
-                            <div class="col-6" style="text-align:right">
-                                <button mat-raised-button color="white">Inicio de sesión</button>
-                            </div>
-                            <div class="col-6" style="text-align: center">
-                                <button mat-raised-button style="background-color:#FC9F49">Cerrar sesión</button>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-
-            </div>
-
-
-
-        </mat-toolbar-row>
-
-    </mat-toolbar>
-
-
-    <div class="contenedor-banner">
-        <div class="row">
-
-            <div class="col-6 ">
-
-                <img src="https://colorazul.top/wp-content/uploads/2020/04/Azul-%C3%8Dndigo.jpg">
-
-            </div>
-            <div class="col-6">
-                <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2018/06/26/15300286116394.jpg">
-            </div>
+<mat-toolbar class="header">
+  <mat-toolbar-row>
+    <div class="container">
+      <!--Logo-->
+      <div class="row">
+        <div class="col-sm">
+          <img src="/assets/Logo_U.T.P.png" />
         </div>
+
+        <!--La parte central del mat toolbar-->
+        <div class="col-sm">
+          <div class="row">
+            <div class="col-3">
+              <button mat-button [routerLink]="['/']">Inicio</button>
+            </div>
+
+            <div class="col-3">
+              <button mat-button [matMenuTriggerFor]="autores">Autores</button>
+              <mat-menu #autores="matMenu">
+                <button
+                  mat-menu-item
+                  [routerLink]="['/autores']"
+                  style="background-color: #fefea2"
+                >
+                  Para expositores
+                </button>
+                <button mat-menu-item [routerLink]="['/autores']">
+                  Para evaluadores
+                </button>
+                <button
+                  mat-menu-item
+                  [routerLink]="['/autores']"
+                  style="background-color: #fefea2"
+                >
+                  Pagos
+                </button>
+              </mat-menu>
+            </div>
+
+            <div class="col-3">
+              <button mat-button [matMenuTriggerFor]="eventos">Evento</button>
+              <mat-menu #eventos="matMenu" class="desple">
+                <button
+                  mat-menu-item
+                  [routerLink]="['/evento']"
+                  style="background-color: #fefea2"
+                >
+                  Cronograma
+                </button>
+                <button mat-menu-item [routerLink]="['/evento']">
+                  Expositores
+                </button>
+                <button
+                  mat-menu-item
+                  [routerLink]="['/evento']"
+                  style="background-color: #fefea2"
+                >
+                  Descubriendo la perla
+                </button>
+              </mat-menu>
+            </div>
+            <div class="col-3">
+              <button mat-button [matMenuTriggerFor]="pagos">Comercial</button>
+              <mat-menu #pagos="matMenu">
+                <button
+                  mat-menu-item
+                  [routerLink]="['/pagos']"
+                  style="background-color: #fefea2"
+                >
+                  Inscribe tu negocio
+                </button>
+                <button mat-menu-item [routerLink]="['/pagos']">
+                  Salon virtual
+                </button>
+              </mat-menu>
+            </div>
+          </div>
+        </div>
+
+        <!--Los botones del Mat-toolbar-->
+    <div class="col-sm">
+            <div class="botones">
+                <div class="row">
+                    <div class="col-6" style="text-align: right">
+                      <button mat-raised-button color="white">Inicio de sesión</button>
+                    </div>
+                    <div class="col-6" style="text-align: center">
+                      <button mat-raised-button style="background-color: #fc9f49;margin-left: 40%;">
+                        Cerrar sesión
+                      </button>
+                    </div>
+                </div>
+            </div>
+        
     </div>
+    </div>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
 
-
-
+<!--Imagenes del banner
+<div class="swiper">
+    <swiper effect="fade">
+        <ng-template swiperSlide>
+            <img src=''> 
+            <div class="boton">
+                <h1> holi </h1>
+                <button mat-raised-button color="primary"> Ver mas </button>               
+            </div>
+         
+        </ng-template>
+    </swiper>
 </div>
+-->

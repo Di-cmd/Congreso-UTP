@@ -5,7 +5,17 @@ color:white;
 
 /*justyfy content*/
 }
-.footer{
 
-   
+.footer{
+    background-color:#0D636E;
+    height: 15%;
+    width: 100%;
+    text-align: center;
+}
+
+.container{
+    height: 15%;
+    width: 100%;
+    color:aliceblue;
+
 }

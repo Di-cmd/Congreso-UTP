@@ -1,49 +1,82 @@
-.header {
-    background-color:#FFF69F;
-    height: 85px;
-   position: fixed;
-
-}
-
-
-
-.container{
-    margin:0%;
-}
 
 .container img{
 
-    width: 60px;
-    left: 60px;
-
+    width: 29%;
+    margin-left: 28%;
+    margin-top: -5%;
 }
 
+.container{
+    height: 15%;
+    width: 100%;
+
+}
 .container button{
     
     text-decoration:solid;
     color:black;
     font-size: 15px;
+    margin-left: 2%;
 
 }
+
+
 
 .contenedor img {
     height: 200px;
-    width: 677px;
-    border: 80px;
-    border: black;
-
-
-}
-.contenedor-banner img {
-    margin-top: 90px;
-    height: 250px;
-    width: 677px;
-    margin:none;
-
+    width: 100%;
+    margin-top: -8%;
+    margin-left: -6%;
 
 }
+
 
 .contenedor{
     width: 100%;
 }
 
+.header{
+    background-color:#FFF69F;
+    height: 15%;
+    width: 100%;
+
+
+}
+
+.botones{
+    margin-left: 2%;
+
+}
+
+
+.swiper button{
+    position: relative /* o absolute*/;
+    top: 35%;
+    right:12px;
+    width:120px;
+    z-index:99;
+    left: 45%;
+    }
+    .swiper img{
+      width: 100%;
+      height: 700px;
+      }
+    .swiper h1{
+      position: relative /* o absolute*/;
+      top: 35%;
+      right:12px;
+      z-index:99;
+      left: 45%;
+      font-size: 150%;
+      color:aliceblue;
+      }
+  
+    
+      .boton{
+        position: relative /* o absolute*/;
+        z-index:99;
+        margin-top: -30%;
+        margin-bottom: 25%;
+      }
+
+    
