@@ -29,5 +29,23 @@ export class HomeComponent implements OnInit {
       descripcion:
         "Este poeta hijo de inmigrantes italianos que buscaba hablar de amor y compromiso político de la manera más directa y apasionada posible, es famoso por el estilo directo de sus versos de amor,ira y resistencia. Benedetti alcanzó su punto máximo como »",
     },
+    {
+      name: "Yeniffer",
+      image: "comite.jpg",
+      descripcion:
+        "Este poeta hijo de inmigrantes italianos que buscaba hablar de amor y compromiso político de la manera más directa y apasionada posible, es famoso por el estilo directo de sus versos de amor,ira y resistencia. Benedetti alcanzó su punto máximo como »",
+    },
+    {
+      name: "Yeniffer",
+      image: "comite.jpg",
+      descripcion:
+        "Este poeta hijo de inmigrantes italianos que buscaba hablar de amor y compromiso político de la manera más directa y apasionada posible, es famoso por el estilo directo de sus versos de amor,ira y resistencia. Benedetti alcanzó su punto máximo como »",
+    },
+    {
+      name: "Yeniffer",
+      image: "comite.jpg",
+      descripcion:
+        "Este poeta hijo de inmigrantes italianos que buscaba hablar de amor y compromiso político de la manera más directa y apasionada posible, es famoso por el estilo directo de sus versos de amor,ira y resistencia. Benedetti alcanzó su punto máximo como »",
+    },
   ];
 }

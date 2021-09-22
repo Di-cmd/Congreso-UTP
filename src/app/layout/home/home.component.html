@@ -71,7 +71,7 @@
       <div class="row">
         <div class="col-sm">
           <a href="https://www.utp.edu.co/" target="_blank">
-            <img src="/assets/Logo_U.T.P.png" style="height: 70%;width: 55%;"
+            <img src="/assets/Logo_U.T.P.png" style="height: 70%; width: 55%"
           /></a>
         </div>
         <div class="col-sm">
@@ -86,11 +86,11 @@
           <a
             href="https://academia.utp.edu.co/grupo-de-electrofisiologia/#:~:text=El%20GRUPO%20DE%20ELECTROFISIOLOG%C3%8DA%20es,la%20UNIVERSIDAD%20TECNOL%C3%93GICA%20DE%20PEREIRA. "
             target="_blank"
-            ><img src="/assets/logo_gef.png" style="width: 70%;"
+            ><img src="/assets/logo_gef.png" style="width: 70%"
           /></a>
         </div>
         <div class="col-sm">
-          <img src="/assets/Logo_U.T.P.png"  style="height: 70%;width: 55%;"/>
+          <img src="/assets/Logo_U.T.P.png" style="height: 70%; width: 55%" />
         </div>
       </div>
     </div>
@@ -98,30 +98,17 @@
 
   <!--Contenedor del comite organizador-->
 
-  <div class="contenedor">
-
-    <div class="comite" style="text-align: center;">
+    <div class="contenedor">
+        <div class="comiteT" style="text-align: center">
         <h1>Comite organizador</h1>
-  </div>
-    <!-- ngFor del comite organizador-->
-
-    <div *ngFor="let organizador of organizadores" class="card">
-      <div class="row">
-        <div class="col-2">
-          <mat-card>
-            <mat-card-title>{{ organizador.name }}</mat-card-title>
-            <img mat-card-image src='{{"assets/" +organizador.image}}' />
-            <mat-card-content>{{ organizador.descripcion }}</mat-card-content>
-          </mat-card>
         </div>
-      </div>
-    </div>
- 
-
-
+        <!-- ngFor del comite organizador-->
+            <div *ngFor="let organizador of organizadores" class="card">
+        <mat-card>
+            <mat-card-title>{{ organizador.name }}</mat-card-title>
+            <img mat-card-image src="{{ 'assets/' + organizador.image }}" />
+            <mat-card-content>{{ organizador.descripcion }}</mat-card-content>
+        </mat-card>
+        </div>
   </div>
-  
-
-
-
 </div>

@@ -13,3 +13,14 @@
     margin: 50px;
    text-align:center;
 }
+
+.card{
+    width: 30%;
+    height: 30%;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+.card mat-card-content{
+    text-align: justify;
+}
