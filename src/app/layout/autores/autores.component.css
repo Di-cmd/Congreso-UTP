@@ -1,0 +1,15 @@
+.contenedor mat-card{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+}
+
+.autores img{
+    width: 60%;
+    height: 60%;
+}
+
+.contenedor button{
+    color:aliceblue;
+    background-color: #fc9f49;
+}
