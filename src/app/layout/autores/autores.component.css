@@ -1,9 +1,8 @@
 .contenedor{
     width: 100%;
     float: left;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
+    border: 0.5px;
+    border-style:initial;
     margin-left: -1%;
     text-align: center;
 }
