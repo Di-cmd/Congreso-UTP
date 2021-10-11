@@ -7,18 +7,28 @@ import { AutoresComponent } from './autores/autores.component';
 import { EventosComponent } from './eventos/eventos.component';
 import { PagosComponent } from './pagos/pagos.component';
 import { MaterialsModule } from '../materials/materials.module';
+import { PreInscripcionComponent } from './pre-inscripcion/pre-inscripcion.component';
+import { IngresoComponent } from './ingreso/ingreso.component';
+import { RegistroComponent } from './registro/registro.component';
+
+
+// Importo un modelo:
 
 @NgModule({
   declarations: [
     HomeComponent,
     AutoresComponent,
     EventosComponent,
-    PagosComponent
+    PagosComponent,
+    PreInscripcionComponent,
+    IngresoComponent,
+    RegistroComponent,
   ],
   imports: [
     CommonModule,
     LayoutRoutingModule,
-    MaterialsModule
+    MaterialsModule,
+    
   ]
 })
 export class LayoutModule { }

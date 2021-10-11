@@ -14,12 +14,14 @@ import { MaterialsModule } from '../materials/materials.module';
   declarations: [
     HeaderComponent,
     FooterComponent,
-    LayoutComponent
+    LayoutComponent,
+  
   ],
   imports: [
     CommonModule,
     SharedRoutingModule,
-    MaterialsModule
+    MaterialsModule,
+   
   
   ]
 })
