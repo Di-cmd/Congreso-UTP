@@ -11,17 +11,17 @@
       </div>
 
       <p>
-        Mario Benedetti nació en una próspera familia de inmigrantes italianos
-        el 14 de septiembre de 1920 en el pequeño pueblo de Paso de los Toros.
-        Como muchos uruguayos, provenía de una población de inmigrantes
-        italianos y, siguiendo la costumbre italiana, recibió no menos de cinco
-        nombres: Mario Orlando Hamlet Hardy Brenno. Con tan solo cuatro años
-        Benedetti se fue a vivir a Montevideo. El joven Benedetti decidió desde
-        el principio que quería ser escritor, a pesar de que tuvo que dedicarse
-        a hacer trabajos muy diversos para sobrevivir. Benedetti comenzó su
-        carrera literaria publicando poesía, pero pronto recurrió al cuento y la
-        novela. En ellas pintó un retrato realista y crítico de la ascendente
-        clase media uruguaya, a la que pertenecía.
+        Desde nuestros grupos de investigación GIMM (Grupo de investigación en
+        propiedades magnéticas y magneto) y GEF (Grupo de Electrofisiología)
+        adscritos a la Faculta de Ciencias Básicas de la Universidad Tecnológica
+        de Pereira, tenemos el placer de darles la bienvenida e invitarles a la
+        CONFERENCIA IBEROAMERICANA DE TERMOGRAFÍA INFRARROJA que se llevará a
+        cabo del 12 al 15 de octubre de 2022, con el acompañamiento de un comité
+        organizador internacional. Una conferencia influyente para los
+        profesionales, estudiantes y aficionados, brindándoles una oportunidad
+        para adquirir nuevos conocimientos, así como intercambiar experiencias y
+        difundir información científica en relación a la termografía infrarroja
+        en Colombia y en Iberoamérica.
       </p>
     </div>
   </div>
@@ -37,30 +37,18 @@
 
     <div>
       <p>
-        La estabilidad de la sociedad uruguaya sobre la que Benedetti había
-        escrito sufrió una presión creciente en la década de 1960. Escribió
-        artículos políticos en Marcha pidiendo un cambio radical, y fue
-        instrumental en ayudar a establecer el movimiento Frente Amplio, que
-        buscaba reunir a todos los grupos de izquierda en Uruguay. Sin embargo,
-        a principios de la década de 1970, como en otros países del cono sur de
-        América Latina, la amenaza del cambio revolucionario llevó a los
-        militares a intervenir y comenzar una represión política nunca antes
-        vista en un país pacífico como Uruguay. En 1973, Benedetti se vio
-        obligado a abandonar el país, y cuando cruzó el Río de la Plata para
-        buscar refugio en Argentina, fue inmediatamente amenazado por un
-        escuadrón de la muerte paramilitar de derecha y obligado a seguir
-        adelante. Luego intentó establecerse en Perú, pero fue deportado después
-        de seis meses. Finalmente se instaló en Cuba, donde trabajó para la
-        editorial Casa de las Américas, y también comenzó a visitar la España
-        posterior a Franco. Esta experiencia de exilio marcó fuertemente la
-        segunda mitad de la vida de Benedetti. En el exilio publica dos de sus
-        mejores poemarios, Poemas de otros (en 1974) y La casa y el ladrillo (en
-        1977), así como una de sus novelas más conocidas, Primavera con una
-        esquina rota, obra con la que recibe, en 1987, el Premio Llama de Oro.
-        Aunque reconoció los aspectos positivos, como conocer nuevas personas,
-        explorar diferentes entornos y lograr una reputación más amplia, sintió
-        que nunca podría volver a casa. Fruto de todos estos viajes publicó, en
-        1984, el libro El desexilio y otras conjeturas.
+        La termografía infrarroja y su versatilidad permite ser aplicada en
+        diferentes áreas como son: las ciencias básicas, ciencias de la salud,
+        ingeniería, industrias, entre otras. Favoreciendo la asistencia al
+        evento de profesionales, estudiantes y aficionados, haciendo posible la
+        adaptación de esta técnica en distintas áreas. Un evento iberoamericano
+        que concede la fomentación de desarrollos tecnológicos y científicos de
+        los grupos de investigación, individual y construcción de redes de
+        conocimiento. 
+        El evento denominado Conferencia Iberoamericana de
+        termografía Infrarroja, se realizará de forma presencial -
+        semipresencial o (explicación) en las instalaciones de la UTP entre el
+        12 al 15 de octubre de 2022.
       </p>
     </div>
   </div>
@@ -99,10 +87,11 @@
   <!--Contenedor del comite organizador-->
 
   <div class="contenedor">
-      <div class="comiteT" style="text-align: center">
-        <h1>Comite organizador</h1>
-      </div>
-      <!-- ngFor del comite organizador-->
+    <div class="comiteT" style="text-align: center">
+      <h1>Comite organizador</h1>
+    </div>
+    <!-- ngFor del comite organizador-->
+    <div class="container">
       <div *ngFor="let organizador of organizadores" class="card">
         <mat-card>
           <mat-card-title>{{ organizador.name }}</mat-card-title>
@@ -110,22 +99,52 @@
           <mat-card-content>{{ organizador.descripcion }}</mat-card-content>
         </mat-card>
       </div>
-   
+
+    </div>
   </div>
 
-  <div style="margin-top: 55%;">
+
+<div class="container" style="margin-top: 50%;">
+  <div style="margin-top: 55%">
     <div class="contenedor">
+      <div style="margin-left: 30%;">
         <h1 class="comiteT" style="text-align: center">Tematicas</h1>
-      </div>
-    
-
+        <img src="/assets/tema.PNG" style="width: 70%; margin-top: 50%;">
+       </div>
+    </div>
   </div>
+</div>
+
  
-  <div class="contenedor" style=" text-align: center;">
-    <!-- ngFor del comite organizador-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  
+  <div class="contenedor" style="text-align: center">
+
     <div *ngFor="let tema of Tematicas" class="tematica">
-        <div><h2>{{tema.name}}</h2></div>
+      <div>
+        <h2>{{ tema.name }}</h2>
+      </div>
       <img mat-card-image src="{{ 'assets/' + tema.image }}" />
     </div>
   </div>
+ -->
+         <!-- ngFor de las tematicas-->
+
+
+
+
+
+
+
 </div>

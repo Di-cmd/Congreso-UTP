@@ -12,41 +12,30 @@ export class HomeComponent implements OnInit {
 
   organizadores: any[] = [
     {
-      name: "Milton Humberto",
-      image: "comite.jpg",
+      name: "Milton Medina",
+      image: "profeMilton.jpg",
       descripcion:
-        "Este poeta hijo de inmigrantes italianos que buscaba hablar de amor y compromiso político de la manera más directa y apasionada posible, es famoso por el estilo directo de sus versos de amor, ira y resistencia. Benedetti alcanzó su punto máximo como »",
+        " Ph.D. En Física, Investigador Junior de Minciencias, docente de la Universidad Tecnológica de Pereira, director del grupo de Investigación en Electrofisiología reconocido en categoría b, co-director del Grupo de Investigación en propiedades Magnéticas y Magneto-ópticas de nuevos materiales (GIMM) reconocido en categoría b.",
     },
     {
-      name: "Yeniffer",
-      image: "comite.jpg",
+      name: "Jenniffer Bustamante",
+      image: "profeMilton.jpg",
       descripcion:
-        "Este poeta hijo de inmigrantes italianos que buscaba hablar de amor y compromiso político de la manera más directa y apasionada posible, es famoso por el estilo directo de sus versos de amor,ira y resistencia. Benedetti alcanzó su punto máximo como »",
+        "Estudiante de Doctorado en Ciencias, Magister en Ingeniería Eléctrica, docente de la Universidad Tecnológica de Pereira, integrante del grupo de Investigación en Electrofisiología reconocido en categoría b.",
     },
     {
-      name: "Yeniffer",
-      image: "comite.jpg",
+      name: "Milton Medina",
+      image: "profeMilton.jpg",
       descripcion:
-        "Este poeta hijo de inmigrantes italianos que buscaba hablar de amor y compromiso político de la manera más directa y apasionada posible, es famoso por el estilo directo de sus versos de amor,ira y resistencia. Benedetti alcanzó su punto máximo como »",
+        " Ph.D. En Física, Investigador Junior de Minciencias, docente de la Universidad Tecnológica de Pereira, director del grupo de Investigación en Electrofisiología reconocido en categoría b, co-director del Grupo de Investigación en propiedades Magnéticas y Magneto-ópticas de nuevos materiales (GIMM) reconocido en categoría b.",
     },
     {
-      name: "Yeniffer",
-      image: "comite.jpg",
+      name: "Milton Medina",
+      image: "profeMilton.jpg",
       descripcion:
-        "Este poeta hijo de inmigrantes italianos que buscaba hablar de amor y compromiso político de la manera más directa y apasionada posible, es famoso por el estilo directo de sus versos de amor,ira y resistencia. Benedetti alcanzó su punto máximo como »",
+        " Ph.D. En Física, Investigador Junior de Minciencias, docente de la Universidad Tecnológica de Pereira, director del grupo de Investigación en Electrofisiología reconocido en categoría b, co-director del Grupo de Investigación en propiedades Magnéticas y Magneto-ópticas de nuevos materiales (GIMM) reconocido en categoría b.",
     },
-    {
-      name: "Yeniffer",
-      image: "comite.jpg",
-      descripcion:
-        "Este poeta hijo de inmigrantes italianos que buscaba hablar de amor y compromiso político de la manera más directa y apasionada posible, es famoso por el estilo directo de sus versos de amor,ira y resistencia. Benedetti alcanzó su punto máximo como »",
-    },
-    {
-      name: "Yeniffer",
-      image: "comite.jpg",
-      descripcion:
-        "Este poeta hijo de inmigrantes italianos que buscaba hablar de amor y compromiso político de la manera más directa y apasionada posible, es famoso por el estilo directo de sus versos de amor,ira y resistencia. Benedetti alcanzó su punto máximo como »",
-    },
+    
   ];
 
 
