@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
     },
     {
       name: "Jenniffer Bustamante",
-      image: "profeMilton.jpg",
+      image: "profe_jennifer.png",
       descripcion:
         "Estudiante de Doctorado en Ciencias, Magister en Ingeniería Eléctrica, docente de la Universidad Tecnológica de Pereira, integrante del grupo de Investigación en Electrofisiología reconocido en categoría b.",
     },
