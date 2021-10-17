@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
     },
     {
       name: "Jenniffer Bustamante",
-      image: "profeMilton.jpg",
+      image: "profe_jennifer.png",
       descripcion:
         "Estudiante de Doctorado en Ciencias, Magister en Ingeniería Eléctrica, docente de la Universidad Tecnológica de Pereira, integrante del grupo de Investigación en Electrofisiología reconocido en categoría b.",
     },
@@ -35,6 +35,19 @@ export class HomeComponent implements OnInit {
       descripcion:
         " Ph.D. En Física, Investigador Junior de Minciencias, docente de la Universidad Tecnológica de Pereira, director del grupo de Investigación en Electrofisiología reconocido en categoría b, co-director del Grupo de Investigación en propiedades Magnéticas y Magneto-ópticas de nuevos materiales (GIMM) reconocido en categoría b.",
     },
+    {
+      name: "Milton Medina",
+      image: "profeMilton.jpg",
+      descripcion:
+        " Ph.D. En Física, Investigador Junior de Minciencias, docente de la Universidad Tecnológica de Pereira, director del grupo de Investigación en Electrofisiología reconocido en categoría b, co-director del Grupo de Investigación en propiedades Magnéticas y Magneto-ópticas de nuevos materiales (GIMM) reconocido en categoría b.",
+    },
+    {
+      name: "Milton Medina",
+      image: "profeMilton.jpg",
+      descripcion:
+        " Ph.D. En Física, Investigador Junior de Minciencias, docente de la Universidad Tecnológica de Pereira, director del grupo de Investigación en Electrofisiología reconocido en categoría b, co-director del Grupo de Investigación en propiedades Magnéticas y Magneto-ópticas de nuevos materiales (GIMM) reconocido en categoría b.",
+    },
+    
     
   ];
 

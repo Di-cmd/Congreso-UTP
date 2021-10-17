@@ -1,10 +1,11 @@
+
 <mat-toolbar class="header">
   <mat-toolbar-row>
     <div class="container">
       <!--Logo-->
       <div class="row">
         <div class="col-sm">
-          <img src="/assets/Logo_U.T.P.png" />
+          <img src="/assets/logo_congreso.png" />
         </div>
 
         <!--La parte central del mat toolbar-->
@@ -67,7 +68,7 @@
                   [routerLink]="['/pagos']"
                   style="background-color: #fefea2"
                 >
-                  Inscribe tu negocio
+                  Inscripción para empresas
                 </button>
                 <button mat-menu-item [routerLink]="['/pagos']">
                   Salon virtual
@@ -82,7 +83,7 @@
             <div class="botones">
                 <div class="row">
                     <div class="col-6" style="text-align: right">
-                      <button mat-raised-button color="white">Inicio de sesión</button>
+                      <button mat-raised-button color="white" [routerLink]="['/ingreso']">Inicio de sesión</button>
                     </div>
                     <div class="col-6" style="text-align: center">
                       <button mat-raised-button style="background-color: #fc9f49;margin-left: 40%;">

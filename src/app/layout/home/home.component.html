@@ -64,7 +64,7 @@
         </div>
         <div class="col-sm">
           <a
-            href="https://academia.utp.edu.co/propiedades-magneticas-y-magnetoopticas-de-nuevos-materiales/"
+            href="https://gimm-gef.co/gimm"
             target="_blank"
           >
             <img src="/assets/gimm.png"
@@ -72,13 +72,13 @@
         </div>
         <div class="col-sm">
           <a
-            href="https://academia.utp.edu.co/grupo-de-electrofisiologia/#:~:text=El%20GRUPO%20DE%20ELECTROFISIOLOG%C3%8DA%20es,la%20UNIVERSIDAD%20TECNOL%C3%93GICA%20DE%20PEREIRA. "
+            href="https://gimm-gef.co/gef"
             target="_blank"
             ><img src="/assets/logo_gef.png" style="width: 70%"
           /></a>
         </div>
         <div class="col-sm">
-          <img src="/assets/Logo_U.T.P.png" style="height: 70%; width: 55%" />
+          <img src="/assets/logo_congreso.png" style="height: 70%; width: 55%" />
         </div>
       </div>
     </div>
@@ -86,34 +86,34 @@
 
   <!--Contenedor del comite organizador-->
 
-  <div class="contenedor">
+  <div class="contenedor" style="margin-bottom: 5%;">
     <div class="comiteT" style="text-align: center">
       <h1>Comite organizador</h1>
     </div>
     <!-- ngFor del comite organizador-->
-    <div class="container">
-      <div *ngFor="let organizador of organizadores" class="card">
-        <mat-card>
-          <mat-card-title>{{ organizador.name }}</mat-card-title>
-          <img mat-card-image src="{{ 'assets/' + organizador.image }}" />
-          <mat-card-content>{{ organizador.descripcion }}</mat-card-content>
-        </mat-card>
+    <div class="col-xs-12">
+      <div class="container" style="margin-bottom: 5%;">
+        <div *ngFor="let organizador of organizadores" class="card">
+          <mat-card style="height: 430px;">
+            <mat-card-title>{{ organizador.name }}</mat-card-title>
+            <img mat-card-image src="{{ 'assets/' + organizador.image }}" />
+            <mat-card-content>{{ organizador.descripcion }}</mat-card-content>
+          </mat-card>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="contenedor">
+      <div class="col-xs-12" style="text-align: center; ">
+        <h1>Tematicas</h1>
+      
+          <img src="/assets/tema.PNG" style="height: 70%; width: 55%"/>
       </div>
 
     </div>
-  </div>
+      
 
-
-<div class="container" style="margin-top: 50%;">
-  <div style="margin-top: 55%">
-    <div class="contenedor">
-      <div style="margin-left: 30%;">
-        <h1 class="comiteT" style="text-align: center">Tematicas</h1>
-        <img src="/assets/tema.PNG" style="width: 70%; margin-top: 50%;">
-       </div>
-    </div>
-  </div>
-</div>
 
  
 
@@ -128,19 +128,18 @@
 
 
 
-<!--  
-  <div class="contenedor" style="text-align: center">
+            <!--  
+          <div class="contenedor" style="text-align: center">
 
-    <div *ngFor="let tema of Tematicas" class="tematica">
-      <div>
-        <h2>{{ tema.name }}</h2>
-      </div>
-      <img mat-card-image src="{{ 'assets/' + tema.image }}" />
-    </div>
-  </div>
- -->
-         <!-- ngFor de las tematicas-->
-
+            <div *ngFor="let tema of Tematicas" class="tematica">
+              <div>
+                <h2>{{ tema.name }}</h2>
+              </div>
+              <img mat-card-image src="{{ 'assets/' + tema.image }}" />
+            </div>
+          </div>
+        -->
+                <!-- ngFor de las tematicas-->
 
 
 
