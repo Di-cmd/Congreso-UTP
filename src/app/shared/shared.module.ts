@@ -6,7 +6,6 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LayoutComponent } from './layout/layout.component';
 
-
 //Importo el angular materials
 import { MaterialsModule } from '../materials/materials.module';
 
@@ -15,14 +14,11 @@ import { MaterialsModule } from '../materials/materials.module';
     HeaderComponent,
     FooterComponent,
     LayoutComponent,
-  
   ],
   imports: [
     CommonModule,
     SharedRoutingModule,
-    MaterialsModule,
-   
-  
+    MaterialsModule,  
   ]
 })
 export class SharedModule {
